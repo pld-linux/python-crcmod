@@ -1,6 +1,5 @@
-# $Revision: 1.2 $ $Date: 2004-07-26 18:15:29 $
+# $Revision: 1.3 $ $Date: 2004-07-28 08:03:15 $
 
-%include	/usr/lib/rpm/macros.python
 %define 	module	crcmod
 
 Summary:	crcmod - Python module for creating functions computing CRC
