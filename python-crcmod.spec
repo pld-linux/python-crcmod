@@ -1,4 +1,4 @@
-# $Revision: 1.1 $ $Date: 2004-07-11 16:34:18 $
+# $Revision: 1.2 $ $Date: 2004-07-26 18:15:29 $
 
 %include	/usr/lib/rpm/macros.python
 %define 	module	crcmod
@@ -36,7 +36,7 @@ stworzony.
 
 %build
 CFLAGS="%{rpmcflags}"
-export CLFAGS
+export CFLAGS
 cd extmod
 python setup.py build_ext
 
