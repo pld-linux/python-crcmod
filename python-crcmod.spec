@@ -1,9 +1,9 @@
-# $Revision: 1.4 $ $Date: 2004-11-27 19:01:24 $
+# $Revision: 1.5 $ $Date: 2007-02-12 01:06:28 $
 
 %define 	module	crcmod
 
 Summary:	crcmod - Python module for creating functions computing CRC
-Summary(pl):	crcmod - modu³ Python umo¿liwiaj±cy generowanie funkcji licz±cych CRC
+Summary(pl.UTF-8):   crcmod - moduÅ‚ Python umoÅ¼liwiajÄ…cy generowanie funkcji liczÄ…cych CRC
 Name:		python-%{module}
 Version:	1.2
 Release:	1
@@ -22,12 +22,12 @@ Redundancy Check (CRC). Any generating polynomial producing 8, 16, 32,
 or 64 bit CRCs is allowed. Generated functions can be used in Python
 or C/C++ source code can be generated.
 
-%description -l pl
-crcmod jest modu³em Pythona umo¿liwiaj±cym tworzenie funkcji
-obliczaj±cych sumê kontroln± CRC. crcmod pozwala na u¿ycie dowolnego
-wielomianu generuj±cego 8-, 16-, 32-, lub 64-bitow± sumê CRC.
-Wygenerowane funkcje mog± byæ u¿ywane w programach Pythona, jak
-równie¿ odpowiedni kod w C/C++ do u¿ycia w tych jêzykach mo¿e zostaæ
+%description -l pl.UTF-8
+crcmod jest moduÅ‚em Pythona umoÅ¼liwiajÄ…cym tworzenie funkcji
+obliczajÄ…cych sumÄ™ kontrolnÄ… CRC. crcmod pozwala na uÅ¼ycie dowolnego
+wielomianu generujÄ…cego 8-, 16-, 32-, lub 64-bitowÄ… sumÄ™ CRC.
+Wygenerowane funkcje mogÄ… byÄ‡ uÅ¼ywane w programach Pythona, jak
+rÃ³wnieÅ¼ odpowiedni kod w C/C++ do uÅ¼ycia w tych jÄ™zykach moÅ¼e zostaÄ‡
 stworzony.
 
 %prep
