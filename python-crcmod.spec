@@ -1,4 +1,4 @@
-# $Revision: 1.8 $ $Date: 2010-07-08 08:05:17 $
+# $Revision: 1.9 $ $Date: 2011-01-23 21:10:35 $
 
 %define 	module	crcmod
 
@@ -13,6 +13,8 @@ Source0:	http://dl.sourceforge.net/crcmod/%{module}-%{version}.tar.gz
 # Source0-md5:	be98002a7bab37ca4a10fa59bc48aef9
 URL:		http://crcmod.sourceforge.net/
 BuildRequires:	python-devel >= 1:2.3
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 Requires:	python >= 2.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
