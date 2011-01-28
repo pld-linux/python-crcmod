@@ -1,4 +1,3 @@
-# $Revision: 1.9 $ $Date: 2011-01-23 21:10:35 $
 
 %define 	module	crcmod
 
