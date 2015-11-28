@@ -5,7 +5,7 @@ Summary:	crcmod - Python module for creating functions computing CRC
 Summary(pl.UTF-8):	crcmod - moduł Python umożliwiający generowanie funkcji liczących CRC
 Name:		python-%{module}
 Version:	1.2
-Release:	3
+Release:	4
 License:	BSD-like
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/crcmod/%{module}-%{version}.tar.gz
