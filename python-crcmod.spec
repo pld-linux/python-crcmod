@@ -45,8 +45,7 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{py_sitedir}
 
 cd extmod
-python setup.py install \
-	--root=$RPM_BUILD_ROOT \
+%py_install \
 	--install-lib=%{py_sitedir}
 
 cp -a ../crcmod.py ../_crcfunpy.py $RPM_BUILD_ROOT%{py_sitedir}
