@@ -11,6 +11,7 @@ Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/crcmod/%{module}-%{version}.tar.gz
 # Source0-md5:	be98002a7bab37ca4a10fa59bc48aef9
 URL:		http://crcmod.sourceforge.net/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel >= 1:2.3
 BuildRequires:	python-modules
 BuildRequires:	rpm-pythonprov
